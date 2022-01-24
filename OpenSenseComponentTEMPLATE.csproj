@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64;x86</Platforms>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
+    <UserSecretsId>0e94b77a-f8b6-4248-8cd2-c9ffbec577fb</UserSecretsId>
+    <UseWPF>True</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Composition" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="D:\Hackaton\OpenSense\ComponentContract\ComponentContract.csproj" />
+    <ProjectReference Include="D:\Hackaton\OpenSense\WpfComponentContract\WpfComponentContract.csproj" />
+  </ItemGroup>
+
+</Project>
