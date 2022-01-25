@@ -3,10 +3,10 @@ using System.Composition;
 using Microsoft.Psi;
 using OpenSense.Component.Contract;
 
-namespace OpenSense.Component.PACCE
+namespace OpenSense.Component.TEMPLATE_GROUP
 {
     [Serializable]
-    public class PosturesConfiguration : ConventionalComponentConfiguration
+    public class TEMPLATEConfiguration : ConventionalComponentConfiguration
     {
         private bool mute = false;
 
@@ -18,9 +18,9 @@ namespace OpenSense.Component.PACCE
 
 		// TODO: Add more properties if needed
 		
-        public override IComponentMetadata GetMetadata() => new PosturesMetadata();
+        public override IComponentMetadata GetMetadata() => new TEMPLATEMetadata();
 
-        protected override object Instantiate(Pipeline pipeline, IServiceProvider serviceProvider) => new Postures(pipeline)
+        protected override object Instantiate(Pipeline pipeline, IServiceProvider serviceProvider) => new TEMPLATE(pipeline)
         {
             Mute = Mute,
 		// TODO: Add more here too

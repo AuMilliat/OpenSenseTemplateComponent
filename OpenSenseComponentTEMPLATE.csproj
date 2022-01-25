@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="D:\Hackaton\OpenSense\ComponentContract\ComponentContract.csproj" />
-    <ProjectReference Include="D:\Hackaton\OpenSense\WpfComponentContract\WpfComponentContract.csproj" />
+    <ProjectReference Include="..\OpenSense\ComponentContract\ComponentContract.csproj" />
+    <ProjectReference Include="..\OpenSense\WpfComponentContract\WpfComponentContract.csproj" />
   </ItemGroup>
 
 </Project>
