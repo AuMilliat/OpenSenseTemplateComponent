@@ -6,7 +6,6 @@
     <Platforms>x64;x86</Platforms>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
-    <UserSecretsId>0e94b77a-f8b6-4248-8cd2-c9ffbec577fb</UserSecretsId>
     <UseWPF>True</UseWPF>
   </PropertyGroup>
 
